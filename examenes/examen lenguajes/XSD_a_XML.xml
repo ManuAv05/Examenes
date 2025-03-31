@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<canales nombre="" numero="">
+    <programacion_por_dias Dias="">
+        <programa>
+            <duracion>2h</duracion>
+            <titulo>rosadeguadalupe</titulo>
+            <descripcion>soljdnjnfd ndn</descripcion>
+            <edad>15+</edad>
+            <capitulos>12</capitulos>
+        </programa>
+        <anuncios>
+            <duracion_programa>2h</duracion_programa>
+            <duracion_anuncio>30seg</duracion_anuncio>
+            <marca>cocacola</marca>
+            <horario_emision>12:00 pm</horario_emision>
+        </anuncios>
+    </programacion_por_dias>
+
+</canales>

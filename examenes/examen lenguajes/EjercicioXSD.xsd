@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Canales" type="xs:string">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Programacion_por_dias" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Programa" type="xs:string"/>
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="duracion" type="xs:decimal"/>
+                                    <xs:element name="titulo" type="xs:string"/>
+                                    <xs:element name="descripcion" type="xs:string"/>
+                                    <xs:element name="edad" type="xs:decimal"/>
+                                    <xs:element name="capitulos" type="xs:decimal"/>
+                                </xs:sequence>
+                            </xs:complexType>
+                            <xs:element name="anuncios" type="xs:string"/>
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="Duracion_programa" type="xs:decimal"/>
+                                    <xs:element name="Duracion_anuncio" type="xs:decimal"/>
+                                    <xs:element name="Marca" type="xs:string"/>
+                                    <xs:element name="Horario_emision" type="xs:decimal"/>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:sequence>
+                        <xs:attribute name="Dias" type="xs:date" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="nombre" type="xs:string" use="required"/>
+            <xs:attribute name="numero" type="xs:decimal" use="required"/>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
+        
+        

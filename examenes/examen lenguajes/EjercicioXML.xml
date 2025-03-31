@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<medios_transporte>
+    <transporte>
+        <tipo>
+            <nombre>Trenes</nombre>
+            <velocidad>130km/h</velocidad>
+            <contaminacion>Depende</contaminacion>
+            <medio>Rail</medio>
+            <subtipo>
+                <nombre>AVE</nombre>
+                <velocidad>200KM/h</velocidad>
+                <contaminacion>Poca</contaminacion>
+            </subtipo>
+
+            <subtipo>
+                <nombre>Cercanias</nombre>
+                <velocidad>100KM/h</velocidad>
+                <contaminacion>Media</contaminacion>
+            </subtipo>
+        </tipo>
+        <tipo>
+            <nombre>BUS</nombre>
+            <velocidad>100km/h</velocidad>
+            <contaminacion>Media</contaminacion>
+            <medio>Carretera</medio>
+        </tipo>
+        <tipo>
+            <nombre>Coche</nombre>
+            <velocidad>120km/h</velocidad>
+            <contaminacion>Depende</contaminacion>
+            <medio>Carretera</medio>
+        </tipo>
+    </transporte>
+    <conductores>
+        <conductor tipo="tren">
+            <DNI>34567890D</DNI>
+            <numero_telefono>657458765</numero_telefono>
+            <matricula>96789806456F</matricula>
+        </conductor>
+        <conductor tipo="BUS">
+            <DNI>54678956V</DNI>
+            <numero_telefono>654321234</numero_telefono>
+            <matricula>56FG8G</matricula>
+        </conductor>
+        <conductor tipo="Coche">
+            <DNI>56098767K</DNI>
+            <numero_telefono>678956703</numero_telefono>
+            <matricula>56K9IL</matricula>
+        </conductor>
+    </conductores>
+</medios_transporte>
